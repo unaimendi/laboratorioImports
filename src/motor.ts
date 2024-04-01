@@ -56,5 +56,5 @@ export const resetPartida = () => {
 	};
 	partida.mensaje = "";
 	partida.estado = "noIniciada";
-	partida.barajaRestante = barajaInicial;
+	partida.barajaRestante = [...barajaInicial];
 };

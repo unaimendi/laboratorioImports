@@ -69,5 +69,5 @@ export const partida: Partida = {
 		valor: null,
 		imagenUrl: `${BASE_URL}back.jpg`,
 	},
-	barajaRestante: barajaInicial,
+	barajaRestante: [...barajaInicial],
 };
